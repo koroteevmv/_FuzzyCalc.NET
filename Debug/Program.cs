@@ -16,14 +16,8 @@ namespace Debug
 	{
 		public static void Main(string[] args)
 		{
-			FuzzySet a = new FuzzySet();
-			a["low"] = new Triangle(0.0, 0.0, 0.5);
-			a["mid"] = new Triangle(0.0, 0.5, 1.0);
-			a["high"]= new Triangle(0.5, 1.0, 1.0);
-			
-			a.classify(0.0);
-			a.classify(0.3);
-			a.classify(0.7);
+			FuzzySet a = new std_3_Classifier_triangle();
+			Console.WriteLine("{0}, {1}", a["high"].Domain.begin, a["high"].Domain.end);
 			
 			Console.ReadKey();
 		}

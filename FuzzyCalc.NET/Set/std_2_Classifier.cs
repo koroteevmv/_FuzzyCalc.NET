@@ -16,14 +16,14 @@ namespace FuzzyCalcNET.Set
 	public class std_2_Classifier_triangle :TriangleClassifier
 	{
 		public std_2_Classifier_triangle(double begin = 0.0, double end = 1.0, string name = "")
-			:base(names: new string[]{"I", "II"}, begin: begin, end: end, name: name)
+			:base(names: new string[]{"low", "high"}, begin: begin, end: end, name: name)
 		{
 		}
 	}
 	public class std_2_Classifier_gaussian :GaussianClassifier
 	{
 		public std_2_Classifier_gaussian(double begin = 0.0, double end = 1.0, string name = "")
-			:base(names: new string[]{"I", "II"}, begin: begin, end: end, name: name)
+			:base(names: new string[]{"low", "high"}, begin: begin, end: end, name: name)
 		{
 		}
 	}
@@ -31,14 +31,29 @@ namespace FuzzyCalcNET.Set
 	public class std_3_Classifier_triangle :TriangleClassifier
 	{
 		public std_3_Classifier_triangle(double begin = 0.0, double end = 1.0, string name = "")
-			:base(names: new string[]{"I", "II", "III"}, begin: begin, end: end, name: name)
+			:base(names: new string[]{"low", "middle", "high"}, begin: begin, end: end, name: name)
 		{
 		}
 	}
 	public class std_3_Classifier_gaussian :GaussianClassifier
 	{
 		public std_3_Classifier_gaussian(double begin = 0.0, double end = 1.0, string name = "")
-			:base(names: new string[]{"I", "II", "III"}, begin: begin, end: end, name: name)
+			:base(names: new string[]{"low", "middle", "high"}, begin: begin, end: end, name: name)
+		{
+		}
+	}
+	
+	public class std_5_Classifier_triangle :TriangleClassifier
+	{
+		public std_5_Classifier_triangle(double begin = 0.0, double end = 1.0, string name = "")
+			:base(names: new string[]{"very low", "low", "middle", "high", "very high"}, begin: begin, end: end, name: name)
+		{
+		}
+	}
+	public class std_5_Classifier_gaussian :GaussianClassifier
+	{
+		public std_5_Classifier_gaussian(double begin = 0.0, double end = 1.0, string name = "")
+			:base(names: new string[]{"very low", "low", "middle", "high", "very high"}, begin: begin, end: end, name: name)
 		{
 		}
 	}
