@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{42558D42-C3CB-4CDE-BB98-2BF48C87CC58}</ProjectGuid>
+    <ProjectGuid>{866BE7EF-35F7-4994-B171-47999A73E5C1}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <OutputType>Library</OutputType>
-    <RootNamespace>FCTest</RootNamespace>
-    <AssemblyName>FCTest</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FC_Integral_Tests</RootNamespace>
+    <AssemblyName>FC_Integral_Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -30,10 +30,6 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NUnit.Framework">
-      <HintPath>$(SharpDevelopBinPath)\Tools\NUnit\NUnit.Framework.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework" />
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -44,29 +40,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\IntegerRangeTest.cs" />
-    <Compile Include="Domain\RationalRangeTest.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Set\SetTest.cs" />
-    <Compile Include="Subsets\GaussianTest.cs" />
-    <Compile Include="Subsets\SubsetTest.cs" />
-    <Compile Include="Subsets\TrapezoidalTest.cs" />
-    <Compile Include="TNorm\TnormTest.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\FuzzyCalc.NET\FuzzyCalcNET.csproj">
       <Project>{D6CEAD5E-C64D-4FCE-9D17-864A653E4646}</Project>
       <Name>FuzzyCalcNET</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Domain" />
-    <Folder Include="Set" />
-    <Folder Include="Subsets" />
-    <Folder Include="TNorm" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ProfilingSessions\Session20120322_190004.sdps" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>

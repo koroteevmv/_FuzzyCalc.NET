@@ -1,32 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{D6CEAD5E-C64D-4FCE-9D17-864A653E4646}</ProjectGuid>
+    <ProjectGuid>{42558D42-C3CB-4CDE-BB98-2BF48C87CC58}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
-    <RootNamespace>FuzzyCalcNET</RootNamespace>
-    <AssemblyName>FuzzyCalcNET</AssemblyName>
+    <RootNamespace>FCTest</RootNamespace>
+    <AssemblyName>FC_Unit_Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <SignAssembly>False</SignAssembly>
-    <DelaySign>False</DelaySign>
-    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-    <NoStdLib>False</NoStdLib>
-    <WarningLevel>4</WarningLevel>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
-    <RegisterForComInterop>False</RegisterForComInterop>
-    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
-    <BaseAddress>4194304</BaseAddress>
-    <FileAlignment>4096</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <OutputPath>bin\Debug\</OutputPath>
-    <DebugSymbols>true</DebugSymbols>
+    <DebugSymbols>True</DebugSymbols>
     <DebugType>Full</DebugType>
     <Optimize>False</Optimize>
     <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
@@ -41,6 +30,10 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NUnit.Framework">
+      <HintPath>$(SharpDevelopBinPath)\Tools\NUnit\NUnit.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework" />
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -51,33 +44,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domains\IDomain.cs" />
-    <Compile Include="Domains\IntegerRange.cs" />
-    <Compile Include="Domains\RationalRange.cs" />
+    <Compile Include="Domain\IntegerRangeTest.cs" />
+    <Compile Include="Domain\RationalRangeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Set\FuzzySet.cs" />
-    <Compile Include="Set\GaussianClassifier.cs" />
-    <Compile Include="Set\std_2_Classifier.cs" />
-    <Compile Include="Set\TriangleClassifier.cs" />
-    <Compile Include="Subset\Gaussian.cs" />
-    <Compile Include="Subset\Trapezoidal.cs" />
-    <Compile Include="Subset\Subset.cs" />
-    <Compile Include="Subset\Triangle.cs" />
-    <Compile Include="TNorm\drastic.cs" />
-    <Compile Include="TNorm\margin.cs" />
-    <Compile Include="TNorm\min_max.cs" />
-    <Compile Include="TNorm\naive.cs" />
-    <Compile Include="TNorm\sum_prod.cs" />
-    <Compile Include="TNorm\T-Norm.cs" />
+    <Compile Include="Set\SetTest.cs" />
+    <Compile Include="Subsets\GaussianTest.cs" />
+    <Compile Include="Subsets\SubsetTest.cs" />
+    <Compile Include="Subsets\TrapezoidalTest.cs" />
+    <Compile Include="TNorm\TnormTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Domains" />
+    <ProjectReference Include="..\FuzzyCalc.NET\FuzzyCalcNET.csproj">
+      <Project>{D6CEAD5E-C64D-4FCE-9D17-864A653E4646}</Project>
+      <Name>FuzzyCalcNET</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Domain" />
     <Folder Include="Set" />
+    <Folder Include="Subsets" />
     <Folder Include="TNorm" />
-    <Folder Include="Subset" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FuzzyCalcNET.cd" />
+    <Content Include="ProfilingSessions\Session20120322_190004.sdps" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>
