@@ -60,6 +60,7 @@
     <Compile Include="TNorm\drastic.cs" />
     <Compile Include="TNorm\margin.cs" />
     <Compile Include="TNorm\min_max.cs" />
+    <Compile Include="TNorm\naive.cs" />
     <Compile Include="TNorm\sum_prod.cs" />
     <Compile Include="TNorm\T-Norm.cs" />
   </ItemGroup>

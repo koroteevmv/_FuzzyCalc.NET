@@ -44,7 +44,6 @@ namespace FCTest.Subsets
 			Assert.AreEqual(1.0, A.membership(0.5), "Incorrect membership value");
 			Assert.AreEqual(0.0, A.membership(1.0), "Incorrect membership value");
 			Assert.Throws<KeyNotFoundException>(delegate{A.membership(0.2);});
-			Assert.Throws<ArgumentException>(delegate{A.membership(1.2);});
 		}
 	}
 	
@@ -239,6 +238,81 @@ namespace FCTest.Subsets
 			Assert.AreEqual(1.0, Math.Round(b.membership(2.0), 5), "Invalid mode membership");
 			Assert.AreEqual(0.5+k, Math.Round(b.membership(1.0), 5), "Invalid rational membership 1");
 			Assert.AreEqual(0.5+k, Math.Round(b.membership(2.5), 5), "Invalid rational membership 2");
+		}
+		[Test]
+		public void AdditionBoundaries_Intersect()
+		{
+			Subset a = new Triangle(0.0, 2.0, 6.0);
+			Subset b = new Triangle(3.0, 6.0, 9.0);
+			Subset c = a + b;
+			Assert.AreEqual(0.0, c.Domain.begin, "Invalid begin point");
+			Assert.AreEqual(9.0, c.Domain.end, "Invalid end point");
+		}
+		[Test]
+		public void AdditionBoundaries_Include()
+		{
+			Subset a = new Triangle(0.0, 2.0, 6.0);
+			Subset b = new Triangle(1.0, 2.0, 3.0);
+			Subset c = a + b;
+			Assert.AreEqual(0.0, c.Domain.begin, "Invalid begin point");
+			Assert.AreEqual(6.0, c.Domain.end, "Invalid end point");
+		}
+		[Test]
+		public void AdditionBoundaries_Separate()
+		{
+			Subset a = new Triangle(0.0, 2.0, 6.0);
+			Subset b = new Triangle(9.0, 12.0, 13.0);
+			Subset c = a + b;
+			Assert.AreEqual(0.0, c.Domain.begin, "Invalid begin point");
+			Assert.AreEqual(13.0, c.Domain.end, "Invalid end point");
+		}
+		[Test]
+		public void Addition_NoOverflow()
+		{
+			Subset a = new Triangle(0.0, 2.0, 6.0);
+			Subset b = new Triangle(2.0, 6.0, 9.0);
+			Subset c = a + b;
+			Assert.AreEqual(0.0, c.membership(0.0), "Invalid begin point");
+			Assert.AreEqual(0.0, c.membership(9.0), "Invalid end point");
+			Assert.AreEqual(0.5, c.membership(1.0), "Invalid begin point");
+			Assert.AreEqual(0.5, c.membership(7.5), "Invalid begin point");
+			Assert.AreEqual(1.0, c.membership(2.0), "Invalid begin point");
+			Assert.AreEqual(1.0, c.membership(6.0), "Invalid begin point");
+			Assert.AreEqual(1.0, c.membership(5.0), "Invalid begin point");
+		}
+		[Test]
+		public void Addition_Overflow()
+		{
+			Subset a = new Triangle(0.0, 2.0, 4.0);
+			Subset b = new Triangle(1.0, 2.0, 4.0);
+			Subset c = a + b;
+			Assert.AreEqual(0.0, c.membership(0.0), "Invalid begin point");
+			Assert.AreEqual(0.0, c.membership(9.0), "Invalid end point");
+			Assert.AreEqual(0.5, c.membership(1.0), "Invalid begin point");
+			Assert.AreEqual(1.0, c.membership(2.0), "Invalid begin point");
+			Assert.AreEqual(1.0, c.membership(3.0), "Invalid begin point");
+			Assert.AreEqual(0.0, c.membership(4.0), "Invalid begin point");
+		}
+		[Test]
+		public void Power_con()
+		{
+			Subset a = new Triangle(0.0, 1.0, 3.0);
+			a ^= 2;
+			Assert.AreEqual(0.0, a.membership(0.0), "Invalid begin value");
+			Assert.AreEqual(0.0, a.membership(3.0), "Invalid end value");
+			Assert.AreEqual(1.0, a.membership(1.0), "Invalid mode value");
+			Assert.AreEqual(0.01, a.membership(0.1), "Invalid middle value");
+			Assert.AreEqual(0.25, a.membership(2.0), "Invalid middle value 2");
+		}
+		[Test]
+		public void Power_dil()
+		{
+			Subset a = new Triangle(0.0, 1.0, 3.0);
+			a ^= 0.5;
+			Assert.AreEqual(0.0, a.membership(0.0), "Invalid begin value");
+			Assert.AreEqual(0.0, a.membership(3.0), "Invalid end value");
+			Assert.AreEqual(1.0, a.membership(1.0), "Invalid mode value");
+			Assert.AreEqual(0.8, a.membership(0.64), "Invalid middle value");
 		}
 	}	
 }

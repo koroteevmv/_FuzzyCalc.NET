@@ -48,5 +48,10 @@ namespace FuzzyCalcNET.TNorm
 				return 1.0;
 			}
 		}
+		
+		public double neg(double a)
+		{
+			throw new NotImplementedException();
+		}
 	}
 }

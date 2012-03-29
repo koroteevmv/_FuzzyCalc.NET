@@ -17,5 +17,6 @@ namespace FuzzyCalcNET.TNorm
 	{
 		double norm(double a, double b);
 		double conorm(double a, double b);
+		double neg(double a);
 	}
 }

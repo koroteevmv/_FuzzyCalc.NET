@@ -30,5 +30,10 @@ namespace FuzzyCalcNET.TNorm
 			}
 			return Math.Min(Math.Max(Math.Max(a, b), 0), 1);
 		}
+		
+		public double neg(double a)
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
