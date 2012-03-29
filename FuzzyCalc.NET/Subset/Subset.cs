@@ -55,7 +55,7 @@ namespace FuzzyCalcNET.Subset
 			}			
 		}
 		
-		public double centroid()
+		public virtual double centroid()
 		{
 			double sum = 0.0;
 			double j = 0.0;

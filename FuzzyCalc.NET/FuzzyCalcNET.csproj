@@ -55,6 +55,9 @@
     <Compile Include="Domains\IntegerRange.cs" />
     <Compile Include="Domains\RationalRange.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Set\FuzzySet.cs" />
+    <Compile Include="Subset\Gaussian.cs" />
+    <Compile Include="Subset\Trapezoidal.cs" />
     <Compile Include="Subset\Subset.cs" />
     <Compile Include="Subset\Triangle.cs" />
     <Compile Include="TNorm\drastic.cs" />
@@ -66,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Domains" />
+    <Folder Include="Set" />
     <Folder Include="TNorm" />
     <Folder Include="Subset" />
   </ItemGroup>

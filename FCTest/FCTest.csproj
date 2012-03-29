@@ -33,6 +33,7 @@
     <Reference Include="NUnit.Framework">
       <HintPath>$(SharpDevelopBinPath)\Tools\NUnit\NUnit.Framework.dll</HintPath>
     </Reference>
+    <Reference Include="nunit.framework" />
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -46,7 +47,10 @@
     <Compile Include="Domain\IntegerRangeTest.cs" />
     <Compile Include="Domain\RationalRangeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SubsetTest.cs" />
+    <Compile Include="Set\SetTest.cs" />
+    <Compile Include="Subsets\GaussianTest.cs" />
+    <Compile Include="Subsets\SubsetTest.cs" />
+    <Compile Include="Subsets\TrapezoidalTest.cs" />
     <Compile Include="TNorm\TnormTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Domain" />
+    <Folder Include="Set" />
+    <Folder Include="Subsets" />
     <Folder Include="TNorm" />
   </ItemGroup>
   <ItemGroup>
