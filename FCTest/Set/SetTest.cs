@@ -8,6 +8,8 @@
  */
 using System;
 using NUnit.Framework;
+using FuzzyCalcNET.Set;
+using FuzzyCalcNET.Subset;
 
 namespace FCTest.Set
 {
@@ -17,7 +19,8 @@ namespace FCTest.Set
 		[Test]
 		public void TestMethod()
 		{
-			// TODO: Add your test.
+			FuzzySet a = new FuzzySet();
+			Subset b = a["initial"];
 		}
 	}
 }

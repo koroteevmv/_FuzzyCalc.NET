@@ -28,10 +28,10 @@ namespace FuzzyCalcNET.Subset
 		}
 		public override double membership(double x)
 		{
-			if (x>=a && x<=b) {
+			if (x>a && x<b) {
 				return (x - a)/(b - a);
 			}
-			else if (x>=c && x<=d) {
+			else if (x>c && x<d) {
 				return (x - d)/(c - d);
 			}
 			else if (x>=b && x<=c) {
