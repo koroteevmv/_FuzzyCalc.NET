@@ -4,7 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # SharpDevelop 4.1.0.8000
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyCalcNET", "FuzzyCalcNET.csproj", "{D6CEAD5E-C64D-4FCE-9D17-864A653E4646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCTest", "..\FCTest\FCTest.csproj", "{42558D42-C3CB-4CDE-BB98-2BF48C87CC58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC_Unit_Tests", "..\FCTest\FC_Unit_Tests.csproj", "{42558D42-C3CB-4CDE-BB98-2BF48C87CC58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCDebug", "..\FCDebug\FCDebug.csproj", "{4350CA72-A569-4A61-B8BE-D163E0BA583E}"
 EndProject

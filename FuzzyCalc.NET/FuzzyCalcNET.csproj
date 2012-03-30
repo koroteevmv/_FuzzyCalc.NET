@@ -56,6 +56,9 @@
     <Compile Include="Domains\RationalRange.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Set\FuzzySet.cs" />
+    <Compile Include="Set\GaussianClassifier.cs" />
+    <Compile Include="Set\std_2_Classifier.cs" />
+    <Compile Include="Set\TriangleClassifier.cs" />
     <Compile Include="Subset\Gaussian.cs" />
     <Compile Include="Subset\Trapezoidal.cs" />
     <Compile Include="Subset\Subset.cs" />
@@ -72,6 +75,9 @@
     <Folder Include="Set" />
     <Folder Include="TNorm" />
     <Folder Include="Subset" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FuzzyCalcNET.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>
