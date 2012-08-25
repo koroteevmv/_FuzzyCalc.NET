@@ -26,7 +26,6 @@ namespace FuzzyCalcNET.Set
 		{
 			this.name = name;
 			this.Domain = new RationalRange(begin, end);
-<<<<<<< HEAD
 			this.Clear();
 		}
 		public double find(double x, string term)
@@ -37,32 +36,20 @@ namespace FuzzyCalcNET.Set
 			catch {
 				return 0.0;
 			}
-=======
-		}
-		public double find(double x, string term)
-		{
-			return this[term].membership(x);
->>>>>>> origin/master
 		}
 		public string classify(double x)
 		{
 			string res= "";
-<<<<<<< HEAD
 //			Console.WriteLine("Classification, {0}", x);
 			foreach (string term in this.Keys) {
 				if (!this.ContainsKey(res)) {
 					res = term;
-//					Console.WriteLine("{0}, {1}", term, this[term].membership(x));
+					Console.WriteLine("{0}, {1}", term, this[term].membership(x));
 					continue;
 				}
 				double mem = this.find(x, term);
-//				Console.WriteLine("{0}, {1}", term, mem);
+				Console.WriteLine("{0}, {1}", term, mem);
 				if (mem > this.find(x, res)) {
-=======
-			foreach (string term in this.Keys) {
-				double mem = this.find(x, term);
-				if (this.ContainsKey(res) && mem > this.find(x, res)) {
->>>>>>> origin/master
 					res = term;
 				}
 			}

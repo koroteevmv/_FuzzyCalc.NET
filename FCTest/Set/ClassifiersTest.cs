@@ -41,7 +41,7 @@ namespace FCTest.Set
 		public void TernaryClassifierGaussian()
 		{
 			FuzzySet C = new std_3_Classifier_gaussian();
-			Assert.AreEqual("middle", C.classify(0.3), "Invalid low classification");
+			Assert.AreEqual("low", C.classify(0.3), "Invalid low classification");
 			Assert.AreEqual("high", C.classify(0.9), "Invalid high classification");
 		}
 		[Test]

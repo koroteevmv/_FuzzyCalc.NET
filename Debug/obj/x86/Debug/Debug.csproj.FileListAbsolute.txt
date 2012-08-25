@@ -1,0 +1,7 @@
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\Debug\bin\Debug\Debug.exe
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\Debug\bin\Debug\Debug.pdb
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\Debug\bin\Debug\FuzzyCalcNET.dll
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\Debug\bin\Debug\FuzzyCalcNET.pdb
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\Debug\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\Debug\obj\x86\Debug\Debug.exe
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\Debug\obj\x86\Debug\Debug.pdb
