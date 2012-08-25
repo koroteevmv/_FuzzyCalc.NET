@@ -150,4 +150,40 @@ namespace FCTest.Tnorm
 			Assert.Throws<ArgumentException>(delegate{norm.conorm(1.1, 1.4);}, "3");
 		}
 	}
+	[TestFixture]
+	public class naiveTest
+	{
+		[Test]
+		public void normal_norm()
+		{
+			T_Norm norm = new naive();
+			Assert.AreEqual(0.35, norm.norm(0.7, 0.5), "1");
+			Assert.AreEqual(0.5, norm.norm(0.5, 1.0), "2");
+			Assert.AreEqual(0.5, norm.norm(1.0, 0.5), "3");
+		}	
+		[Test]
+		public void normal_conorm()
+		{
+			T_Norm norm = new naive();
+			Assert.AreEqual(0.8, norm.conorm(0.3, 0.5), "1");
+			Assert.AreEqual(0.5, norm.conorm(0.5, 0.0), "2");
+			Assert.AreEqual(0.5, norm.conorm(0.0, 0.5), "3");
+		}	
+		[Test]
+		public void boundries_norm()
+		{
+			T_Norm norm = new naive();
+			Assert.Throws<ArgumentException>(delegate{norm.norm(-0.3, 0.5);}, "1");
+			Assert.Throws<ArgumentException>(delegate{norm.norm(0.0, -0.4);}, "2");
+			Assert.Throws<ArgumentException>(delegate{norm.norm(-0.1, -0.4);}, "3");
+		}
+		[Test]
+		public void boundries_conorm()
+		{
+			T_Norm norm = new naive();
+			Assert.Throws<ArgumentException>(delegate{norm.conorm(1.3, 0.5);}, "1");
+			Assert.Throws<ArgumentException>(delegate{norm.conorm(1.0, 1.4);}, "2");
+			Assert.Throws<ArgumentException>(delegate{norm.conorm(1.1, 1.4);}, "3");
+		}
+	}
 }

@@ -30,5 +30,11 @@ namespace FCTest.Subsets
 			Assert.AreEqual(Math.Exp(-0.5), a.membership(1.0), "Invalid left point");
 			Assert.AreEqual(Math.Exp(-2), a.membership(7.0), "Invalid left point");
 		}
+		[Test]
+		public void Gaussian_Centroid()
+		{
+			Subset a = new Gaussian(3.0, 2.0);
+			Assert.AreEqual(3.0, a.centroid(), "Invalid gaussian centriod");
+		}
 	}
 }
