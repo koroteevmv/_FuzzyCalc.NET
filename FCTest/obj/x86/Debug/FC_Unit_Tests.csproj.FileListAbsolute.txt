@@ -1,0 +1,7 @@
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\bin\Debug\FC_Unit_Tests.dll
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\bin\Debug\FC_Unit_Tests.pdb
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\bin\Debug\FuzzyCalcNET.dll
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\bin\Debug\FuzzyCalcNET.pdb
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\obj\x86\Debug\FC_Unit_Tests.dll
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\obj\x86\Debug\FC_Unit_Tests.pdb

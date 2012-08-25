@@ -67,6 +67,7 @@
     <Folder Include="TNorm" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FC_Unit_Tests.cd" />
     <Content Include="ProfilingSessions\Session20120322_190004.sdps" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />

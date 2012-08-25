@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{0A4E52E8-FF04-4BB4-8136-21C52E8FDB47}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <RootNamespace>FuzzyCalcPrototyping</RootNamespace>
+    <AssemblyName>FuzzyCalcPrototyping</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputType>Exe</OutputType>
+    <DebugInfo>True</DebugInfo>
+    <MainFile>Program.py</MainFile>
+    <StartArguments>-X:Debug Program.py</StartArguments>
+    <StartWorkingDirectory>.\</StartWorkingDirectory>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\SharpDevelop\4.1\bin\..\AddIns\BackendBindings\PythonBinding\ipy.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <OutputType>Exe</OutputType>
+    <MainFile>Program.py</MainFile>
+    <StartArguments>Program.py</StartArguments>
+    <StartWorkingDirectory>.\</StartWorkingDirectory>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\SharpDevelop\4.1\bin\..\AddIns\BackendBindings\PythonBinding\ipy.exe</StartProgram>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FuzzyCalcNET">
+      <HintPath>..\..\..\GitHub\FuzzyCalc.NET\Debug\bin\Debug\FuzzyCalcNET.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython">
+      <HintPath>C:\Program Files\SharpDevelop\4.1\bin\..\AddIns\BackendBindings\PythonBinding\IronPython.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.Modules">
+      <HintPath>C:\Program Files\SharpDevelop\4.1\bin\..\AddIns\BackendBindings\PythonBinding\IronPython.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aggregation.py" />
+    <Compile Include="Program.py" />
+    <Compile Include="Rule.py" />
+    <Compile Include="Tree.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />
+</Project>

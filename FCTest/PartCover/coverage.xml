@@ -1,4 +1,4 @@
-<PartCoverReport version="4.0" date="2012-08-25T20:49:37.5303288+04:00">
+<PartCoverReport version="4.0" date="2012-08-26T00:48:36.0224436+04:00">
  <File id="1" url="c:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\Domain\IntegerRangeTest.cs" />
  <File id="4" url="c:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\Domain\RationalRangeTest.cs" />
  <File id="7" url="c:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\Set\ClassifiersTest.cs" />
@@ -22,14 +22,14 @@
  <File id="22" url="c:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalc.NET\TNorm\min_max.cs" />
  <File id="18" url="c:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalc.NET\TNorm\naive.cs" />
  <File id="23" url="c:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalc.NET\TNorm\sum_prod.cs" />
- <Assembly id="1" name="nunit-console" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\nunit-console.exe" domain="DefaultDomain" domainIdx="1" />
- <Assembly id="2" name="nunit.core" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit.core.dll" domain="nunit-console.exe" domainIdx="1" />
- <Assembly id="3" name="nunit.util" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit.util.dll" domain="nunit-console.exe" domainIdx="1" />
- <Assembly id="4" name="nunit-console-runner" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit-console-runner.dll" domain="nunit-console.exe" domainIdx="1" />
- <Assembly id="5" name="nunit.core.interfaces" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit.core.interfaces.dll" domain="nunit-console.exe" domainIdx="1" />
- <Assembly id="8" name="FC_Unit_Tests" module="C:\Users\sejros\AppData\Local\Temp\nunit20\ShadowCopyCache\22524_634815245764242655\Tests_-1965957125\assembly\dl3\aed938d9\70852d97_e182cd01\FC_Unit_Tests.DLL" domain="test-domain-FC_Unit_Tests.dll" domainIdx="1" />
- <Assembly id="9" name="nunit.framework" module="C:\Users\sejros\AppData\Local\Temp\nunit20\ShadowCopyCache\22524_634815245764242655\Tests_-1965957125\assembly\dl3\fa134812\00193629_a54bcc01\nunit.framework.DLL" domain="test-domain-FC_Unit_Tests.dll" domainIdx="1" />
- <Assembly id="10" name="FuzzyCalcNET" module="C:\Users\sejros\AppData\Local\Temp\nunit20\ShadowCopyCache\22524_634815245764242655\Tests_-1965957125\assembly\dl3\fdc0c895\9004be96_d382cd01\FuzzyCalcNET.DLL" domain="test-domain-FC_Unit_Tests.dll" domainIdx="1" />
+ <Assembly id="1" name="nunit-console" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\nunit-console-x86.exe" domain="DefaultDomain" domainIdx="1" />
+ <Assembly id="2" name="nunit.core" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit.core.dll" domain="nunit-console-x86.exe" domainIdx="1" />
+ <Assembly id="3" name="nunit.util" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit.util.dll" domain="nunit-console-x86.exe" domainIdx="1" />
+ <Assembly id="4" name="nunit-console-runner" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit-console-runner.dll" domain="nunit-console-x86.exe" domainIdx="1" />
+ <Assembly id="5" name="nunit.core.interfaces" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit.core.interfaces.dll" domain="nunit-console-x86.exe" domainIdx="1" />
+ <Assembly id="8" name="FC_Unit_Tests" module="C:\Users\sejros\AppData\Local\Temp\nunit20\ShadowCopyCache\80188_634815389149003794\Tests_-1951618652\assembly\dl3\6be1789d\65994b83_0283cd01\FC_Unit_Tests.DLL" domain="test-domain-FC_Unit_Tests.dll" domainIdx="1" />
+ <Assembly id="9" name="nunit.framework" module="C:\Users\sejros\AppData\Local\Temp\nunit20\ShadowCopyCache\80188_634815389149003794\Tests_-1951618652\assembly\dl3\7d684030\00193629_a54bcc01\nunit.framework.DLL" domain="test-domain-FC_Unit_Tests.dll" domainIdx="1" />
+ <Assembly id="10" name="FuzzyCalcNET" module="C:\Users\sejros\AppData\Local\Temp\nunit20\ShadowCopyCache\80188_634815389149003794\Tests_-1951618652\assembly\dl3\8abd4083\aec41a83_0283cd01\FuzzyCalcNET.DLL" domain="test-domain-FC_Unit_Tests.dll" domainIdx="1" />
  <Type asmref="1" name="NUnit.ConsoleRunner.ExtendedConsoleUi" flags="0">
   <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0">
    <pt visit="1" pos="0" len="6" />
@@ -2932,8 +2932,8 @@
    <pt visit="1" pos="44" len="6" />
    <pt visit="1" pos="50" len="5" />
    <pt visit="1" pos="55" len="3" />
-   <pt visit="1" pos="58" len="7" />
-   <pt visit="0" pos="65" len="5" />
+   <pt visit="0" pos="58" len="7" />
+   <pt visit="1" pos="65" len="5" />
    <pt visit="1" pos="70" len="8" />
    <pt visit="1" pos="78" len="7" />
    <pt visit="1" pos="85" len="2" />

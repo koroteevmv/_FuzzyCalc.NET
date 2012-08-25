@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="FCTest.Set.SetTest" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="1.606862" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Set.ClassifiersTest" Collapsed="False">
+    <Position X="0.5" Y="2.8" Width="2.124367" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Domains.IntegerRangeTest" Collapsed="False">
+    <Position X="0.5" Y="5" Width="1.511256" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Domains.RationalRangeTest" Collapsed="False">
+    <Position X="0.5" Y="7" Width="1.726369" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Subsets.TrapezoidalTest" Collapsed="False">
+    <Position X="0.5" Y="9.2" Width="1.38342" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Subsets.GaussianTest" Collapsed="False">
+    <Position X="0.5" Y="10.6" Width="1.952599" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Tnorm.drasticTest" Collapsed="False">
+    <Position X="0.5" Y="12.2" Width="1.725294" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Tnorm.marginTest" Collapsed="False">
+    <Position X="0.5" Y="14" Width="1.725294" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Tnorm.SumProdTest" Collapsed="False">
+    <Position X="0.5" Y="15.9" Width="1.725294" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Tnorm.MinMaxTest" Collapsed="False">
+    <Position X="0.5" Y="17.7" Width="1.725294" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Subsets.TriangleTest" Collapsed="False">
+    <Position X="0.5" Y="19.5" Width="2.469352" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Subsets.SubsetTest" Collapsed="False">
+    <Position X="0.5" Y="24.7" Width="1.536393" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FCTest.Tnorm.naiveTest" Collapsed="False">
+    <Position X="0.5" Y="26.7" Width="1.725294" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

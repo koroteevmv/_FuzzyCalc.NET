@@ -1,0 +1,3 @@
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalc.NET\bin\Release\FuzzyCalcNET.dll
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalc.NET\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalc.NET\obj\x86\Release\FuzzyCalcNET.dll

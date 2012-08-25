@@ -1,0 +1,13 @@
+C:\Users\sejros\Documents\SharpDevelop Projects\FuzzyCalcPrototyping\FuzzyCalcPrototyping\bin\Debug\FuzzyCalcPrototyping.exe.config
+C:\Users\sejros\Documents\SharpDevelop Projects\FuzzyCalcPrototyping\FuzzyCalcPrototyping\bin\Debug\FuzzyCalcPrototyping.exe
+C:\Users\sejros\Documents\SharpDevelop Projects\FuzzyCalcPrototyping\FuzzyCalcPrototyping\bin\Debug\FuzzyCalcPrototyping.dll
+C:\Users\sejros\Documents\SharpDevelop Projects\FuzzyCalcPrototyping\FuzzyCalcPrototyping\bin\Debug\FuzzyCalcNET.dll
+C:\Users\sejros\Documents\SharpDevelop Projects\FuzzyCalcPrototyping\FuzzyCalcPrototyping\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sejros\Documents\SharpDevelop Projects\FuzzyCalcPrototyping\FuzzyCalcPrototyping\obj\x86\Debug\FuzzyCalcPrototyping.exe
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalcPrototyping\bin\Debug\FuzzyCalcPrototyping.exe.config
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalcPrototyping\bin\Debug\FuzzyCalcPrototyping.exe
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalcPrototyping\bin\Debug\FuzzyCalcPrototyping.dll
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalcPrototyping\bin\Debug\FuzzyCalcNET.dll
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalcPrototyping\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalcPrototyping\obj\x86\Debug\FuzzyCalcPrototyping.exe
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalcPrototyping\bin\Debug\FuzzyCalcNET.pdb
