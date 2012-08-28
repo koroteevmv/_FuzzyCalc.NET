@@ -23,6 +23,34 @@ namespace FCTest.Domains
 		public void Create(){
 			Assert.DoesNotThrow(delegate{new RationalRange();});
 		}
+		[Test]
+		public void DefaultValues(){
+			IDomain D = new RationalRange();
+			Assert.AreEqual(0.0, D.begin, "Wrong default begin value");
+			Assert.AreEqual(1.0, D.end, "Wrong default end value");
+		}
+		[Test]
+		public void ConstructedValues(){
+			IDomain D = new RationalRange(10.2, 24.2);
+			Assert.AreEqual(10.2, D.begin, "Wrong begin value");
+			Assert.AreEqual(24.2, D.end, "Wrong end value");
+		}
+		[Test]
+		public void SetterValues(){
+			IDomain D = new RationalRange();
+			D.end = 23.6;
+			D.begin = 15.6;
+			Assert.AreEqual(15.6, D.begin, "Wrong begin value");
+			Assert.AreEqual(23.6, D.end, "Wrong end value");
+		}
+		[Test]
+		public void BoundariesOverlap(){
+			IDomain D = new RationalRange();
+			Assert.AreEqual(0.0, D.begin, "Wrong begin value");
+			Assert.AreEqual(1.0, D.end, "Wrong end value");
+			Assert.Throws(typeof(ArgumentException), delegate{D.begin=2.0;}, "Overlap possible");
+			Assert.Throws(typeof(ArgumentException), delegate{D.end=-2.0;}, "Overlap possible");
+		}
 		
 		[Test]
 		public void Iterate_default(){

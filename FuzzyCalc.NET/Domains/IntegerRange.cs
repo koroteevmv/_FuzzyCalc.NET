@@ -17,8 +17,8 @@ namespace FuzzyCalcNET.Domains
 	{
 		public IntegerRange(int begin = 0, int end = 100)
 		{
-			this.begin = begin;
 			this.end = end;
+			this.begin = begin;
 			this.step = 1.0;
 		}
 	}

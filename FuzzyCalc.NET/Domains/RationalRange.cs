@@ -18,15 +18,32 @@ namespace FuzzyCalcNET.Domains
 //	const accuracy = 0.0001;
 	public class RationalRange: IDomain
 	{
-		public double begin{get;set;}
-		public double end{get;set;}
+		public double begin{
+			get{
+				return this.B;
+			}
+			set{
+				if (value>this.end){ throw new ArgumentException();}
+				else {this.B = value;}
+			}
+		}
+		public double end{
+			get{
+				return this.E;
+			}
+			set{
+				if (value<this.begin){ throw new ArgumentException();}
+				else {this.E = value;}
+			}
+		}
 		public double step
 			{get; set;}
+		double B, E;
 		
 		public RationalRange(double begin = 0.0, double end =1.0, double step = 1.0/(double)Accuracy.Accuracy)
 		{
-			this.begin = begin;
 			this.end = end;
+			this.begin = begin;
 			this.step = step;
 		}
 		

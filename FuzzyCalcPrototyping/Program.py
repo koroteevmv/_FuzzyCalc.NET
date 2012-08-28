@@ -1,5 +1,7 @@
-﻿import sys, clr
+﻿import sys
 sys.path.append("C:\\Users\\sejros\\Documents\\GitHub\\FuzzyCalc.NET\\FuzzyCalc.NET\\bin\\Release")
+##import IronPython
+import clr;
 clr.AddReference("FuzzyCalcNET")
 from FuzzyCalcNET import *
 

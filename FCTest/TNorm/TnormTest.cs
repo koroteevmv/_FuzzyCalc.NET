@@ -168,7 +168,23 @@ namespace FCTest.Tnorm
 			Assert.AreEqual(0.8, norm.conorm(0.3, 0.5), "1");
 			Assert.AreEqual(0.5, norm.conorm(0.5, 0.0), "2");
 			Assert.AreEqual(0.5, norm.conorm(0.0, 0.5), "3");
+		}
+		[Test]
+		public void normal_neg()
+		{
+			T_Norm norm = new naive();
+			Assert.AreEqual(0.7, norm.neg(0.3), "1");
+			Assert.AreEqual(0.5, norm.neg(0.5), "2");
+			Assert.AreEqual(1.0, norm.neg(0.0), "3");
+			Assert.AreEqual(0.0, norm.neg(1.0), "3");
 		}	
+		[Test]
+		public void boundries_neg()
+		{
+			T_Norm norm = new naive();
+			Assert.Throws<ArgumentException>(delegate{norm.neg(-0.3);}, "1");
+			Assert.Throws<ArgumentException>(delegate{norm.neg(1.2);}, "2");
+		}
 		[Test]
 		public void boundries_norm()
 		{

@@ -76,5 +76,8 @@
     <Folder Include="TNorm" />
     <Folder Include="Subset" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="FuzzyCalcNET.cd" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>

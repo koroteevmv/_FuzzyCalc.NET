@@ -33,7 +33,10 @@ namespace FuzzyCalcNET.TNorm
 		
 		public double neg(double a)
 		{
-			return 0.0 - a;
+			if (0.0>a || a>1.0) {
+				throw new ArgumentException();
+			}
+			return 1.0 - a;
 		}
 	}
 }

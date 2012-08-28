@@ -19,7 +19,7 @@ namespace FuzzyCalcNET.Set
 		public TriangleClassifier(string[] names,
 			                          double begin=0.0, double end=1.0,
 			                          string name="", 
-			                          bool edge=true, double cross=1.0)
+			                          bool edge=false, double cross=1.0)
 		{
 			this.Domain = new Domains.RationalRange(begin, end);
 			double wide, step, p;
@@ -28,9 +28,9 @@ namespace FuzzyCalcNET.Set
 				throw new ArgumentException();
 			}
 			if (!edge) {
-				wide = (end-begin)*cross / (2*(names.Length+1));
+				wide = (end-begin)*(cross+1) / (2*(names.Length+1));
 				step = (end-begin) / (names.Length + 1);
-				p = begin+wide;
+				p = begin + (end-begin) / (names.Length + 1);
 			}
 			else {
 				wide = (end-begin)*cross / (names.Length*2 - 2);

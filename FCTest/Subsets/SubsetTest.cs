@@ -19,6 +19,17 @@ namespace FCTest.Subsets
 	public class SubsetTest
 	{
 		Subset A;
+		double norm(double x){
+			if (x>1.0) {
+				return 1.0;
+			}
+			else if (x<0.0) {
+				return 0.0;
+			}
+			else {
+				return x;
+			}
+		}
 		[Test]
 		public void Create()
 		{
@@ -51,6 +62,17 @@ namespace FCTest.Subsets
 	public class TriangleTest
 	{
 		Triangle A;
+		double norm(double x){
+			if (x>1.0) {
+				return 1.0;
+			}
+			else if (x<0.0) {
+				return 0.0;
+			}
+			else {
+				return Math.Round(x, 5);
+			}
+		}
 		[Test]
 		public void Create()
 		{
@@ -91,12 +113,24 @@ namespace FCTest.Subsets
 			Subset b = a * k;
 			Assert.AreEqual(0.0, Math.Round(b.membership(0.0), 5), "Invalid begin membership");
 			Assert.AreEqual(0.0, Math.Round(b.membership(3.0), 5), "Invalid end membership");
-			Assert.AreEqual(k, Math.Round(b.membership(2.0), 5), "Invalid mode membership");
-			Assert.AreEqual(k/2, Math.Round(b.membership(1.0), 5), "Invalid rational membership 1");
-			Assert.AreEqual(k/2, Math.Round(b.membership(2.5), 5), "Invalid rational membership 2");
+			Assert.AreEqual(norm(k), Math.Round(b.membership(2.0), 5), "Invalid mode membership");
+			Assert.AreEqual(norm(k/2), Math.Round(b.membership(1.0), 5), "Invalid rational membership 1");
+			Assert.AreEqual(norm(k/2), Math.Round(b.membership(2.5), 5), "Invalid rational membership 2");
 		}
 		[Test]
 		public void DivideByNumber_Correct()
+		{
+			Subset a = new Triangle(0.0, 2.0, 3.0);
+			double k = 2.0;
+			Subset b = k / a;
+			Assert.AreEqual(1.0, Math.Round(b.membership(0.0), 5), "Invalid begin membership");
+			Assert.AreEqual(0.0, Math.Round(b.membership(3.0), 5), "Invalid end membership");
+			Assert.AreEqual(1.0, Math.Round(b.membership(2.0), 5), "Invalid mode membership");
+			Assert.AreEqual(1.0, Math.Round(b.membership(1.0), 5), "Invalid rational membership 1");
+			Assert.AreEqual(1.0, Math.Round(b.membership(2.5), 5), "Invalid rational membership 2");
+		}
+		[Test]
+		public void DivideANumber_Correct()
 		{
 			Subset a = new Triangle(0.0, 2.0, 3.0);
 			double k = 2.0;
@@ -108,7 +142,7 @@ namespace FCTest.Subsets
 			Assert.AreEqual(1/(2*k), Math.Round(b.membership(2.5), 5), "Invalid rational membership 2");
 		}
 		[Test]
-		public void SubtractANumber_Correct()
+		public void SubtractByNumber_Correct()
 		{
 			Subset a = new Triangle(0.0, 2.0, 3.0);
 			double k = -0.3;
@@ -118,6 +152,18 @@ namespace FCTest.Subsets
 			Assert.AreEqual(1.0, Math.Round(b.membership(2.0), 5), "Invalid mode membership");
 			Assert.AreEqual(0.5-k, Math.Round(b.membership(1.0), 5), "Invalid rational membership 1");
 			Assert.AreEqual(0.5-k, Math.Round(b.membership(2.5), 5), "Invalid rational membership 2");
+		}
+		[Test]
+		public void SubtractANumber_Correct()
+		{
+			Subset a = new Triangle(0.0, 2.0, 3.0);
+			double k = 0.8;
+			Subset b = k - a;
+			Assert.AreEqual(norm(k), Math.Round(b.membership(0.0), 5), "Invalid begin membership");
+			Assert.AreEqual(norm(k), Math.Round(b.membership(3.0), 5), "Invalid end membership");
+			Assert.AreEqual(norm(k-1.0), Math.Round(b.membership(2.0), 5), "Invalid mode membership");
+			Assert.AreEqual(norm(k-0.5), Math.Round(b.membership(1.0), 3), "Invalid rational membership 1");
+			Assert.AreEqual(norm(k-0.5), Math.Round(b.membership(2.5), 3), "Invalid rational membership 2");
 		}
 		[Test]
 		public void MultiplyByNumber_InvertedOrder()
