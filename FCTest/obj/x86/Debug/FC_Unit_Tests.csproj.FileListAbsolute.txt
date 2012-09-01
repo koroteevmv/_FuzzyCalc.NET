@@ -5,3 +5,10 @@ C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\bin\Debug\FuzzyCalcNET.pdb
 C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\obj\x86\Debug\FC_Unit_Tests.dll
 C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FCTest\obj\x86\Debug\FC_Unit_Tests.pdb
+E:\sejros-FuzzyCalc.NET-e84d107\FCTest\bin\Debug\FC_Unit_Tests.dll
+E:\sejros-FuzzyCalc.NET-e84d107\FCTest\bin\Debug\FC_Unit_Tests.pdb
+E:\sejros-FuzzyCalc.NET-e84d107\FCTest\bin\Debug\FuzzyCalcNET.dll
+E:\sejros-FuzzyCalc.NET-e84d107\FCTest\bin\Debug\FuzzyCalcNET.pdb
+E:\sejros-FuzzyCalc.NET-e84d107\FCTest\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\sejros-FuzzyCalc.NET-e84d107\FCTest\obj\x86\Debug\FC_Unit_Tests.dll
+E:\sejros-FuzzyCalc.NET-e84d107\FCTest\obj\x86\Debug\FC_Unit_Tests.pdb

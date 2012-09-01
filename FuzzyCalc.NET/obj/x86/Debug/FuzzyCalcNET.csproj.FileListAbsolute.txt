@@ -3,3 +3,8 @@ C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalc.NET\bin\Debug\FuzzyCalc
 C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalc.NET\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalc.NET\obj\x86\Debug\FuzzyCalcNET.dll
 C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\FuzzyCalc.NET\obj\x86\Debug\FuzzyCalcNET.pdb
+E:\sejros-FuzzyCalc.NET-e84d107\FuzzyCalc.NET\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\sejros-FuzzyCalc.NET-e84d107\FuzzyCalc.NET\obj\x86\Debug\FuzzyCalcNET.dll
+E:\sejros-FuzzyCalc.NET-e84d107\FuzzyCalc.NET\bin\Debug\FuzzyCalcNET.dll
+E:\sejros-FuzzyCalc.NET-e84d107\FuzzyCalc.NET\bin\Debug\FuzzyCalcNET.pdb
+E:\sejros-FuzzyCalc.NET-e84d107\FuzzyCalc.NET\obj\x86\Debug\FuzzyCalcNET.pdb

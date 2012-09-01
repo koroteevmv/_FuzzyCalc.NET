@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\Aggregation.cs" />
+    <Compile Include="Controller\Rule.cs" />
     <Compile Include="Domains\IDomain.cs" />
     <Compile Include="Domains\IntegerRange.cs" />
     <Compile Include="Domains\RationalRange.cs" />
@@ -72,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Domains" />
+    <Folder Include="Controller" />
     <Folder Include="Set" />
     <Folder Include="TNorm" />
     <Folder Include="Subset" />

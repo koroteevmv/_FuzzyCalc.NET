@@ -44,6 +44,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aggregation\AggregationTest.cs" />
     <Compile Include="Domain\IntegerRangeTest.cs" />
     <Compile Include="Domain\RationalRangeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Domain" />
+    <Folder Include="Aggregation" />
     <Folder Include="Set" />
     <Folder Include="Subsets" />
     <Folder Include="TNorm" />
