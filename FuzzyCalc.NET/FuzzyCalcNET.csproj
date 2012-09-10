@@ -62,6 +62,7 @@
     <Compile Include="Set\std_2_Classifier.cs" />
     <Compile Include="Set\TriangleClassifier.cs" />
     <Compile Include="Subset\Gaussian.cs" />
+    <Compile Include="Subset\Interval.cs" />
     <Compile Include="Subset\Trapezoidal.cs" />
     <Compile Include="Subset\Subset.cs" />
     <Compile Include="Subset\Triangle.cs" />

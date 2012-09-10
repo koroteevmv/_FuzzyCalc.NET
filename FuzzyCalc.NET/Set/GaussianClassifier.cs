@@ -36,9 +36,9 @@ namespace FuzzyCalcNET.Set
 				step = (end-begin) / (names.Length - 1);
 				p = begin;
 			}
-			Console.WriteLine("Gaussian classifier ctor");
-			Console.WriteLine("edge={0}, cross={1}, begin={2}, end={3}, n={4}", edge, cross, begin, end, names.Length);
-			Console.WriteLine("wide={0}, step={1}, p={2}", wide, step, p);
+//			Console.WriteLine("Gaussian classifier ctor");
+//			Console.WriteLine("edge={0}, cross={1}, begin={2}, end={3}, n={4}", edge, cross, begin, end, names.Length);
+//			Console.WriteLine("wide={0}, step={1}, p={2}", wide, step, p);
 			foreach (string term in names) {
 				this[term] = new Gaussian(p, wide/3.0);
 				p+=step;

@@ -7,6 +7,9 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
+using System.Collections;
+using System.Collections.Generic;
+
 using FuzzyCalcNET.Subset;
 
 namespace FuzzyCalcNET.Controller
@@ -121,38 +124,25 @@ namespace FuzzyCalcNET.Controller
 		void add_rule(Rule r);
 	}
 	public class Mamdani: IRuled
-	{
-		
-		public Rule[] rules {
-			get {
-				throw new NotImplementedException();
-			}
-			set {
-				throw new NotImplementedException();
-			}
-		}
-		
-		public double[] crisp_input {
-			get {
-				throw new NotImplementedException();
-			}
-			set {
-				throw new NotImplementedException();
-			}
-		}
-		
-		public FuzzyCalcNET.Subset.Subset[] fuzzy_input {
-			get {
-				throw new NotImplementedException();
-			}
-			set {
-				throw new NotImplementedException();
-			}
-		}
+	{		
+		public Rule[] rules {get; set;}
+		public double[] crisp_input {get; set;}
+		public FuzzyCalcNET.Subset.Subset[] fuzzy_input {get; set;}
 		
 		public void add_rule(Rule r)
 		{
 			throw new NotImplementedException();
+		}
+		private double _calculate_crisp()
+		{
+			Subset.Subset res; //  = new Interval(begin, end)*0.0;
+			foreach (Rule rule in this.rules) {
+				double alpha = 1.0;
+				foreach (KeyValuePair<string, string> factor in rule.ant) {
+					string factor_name = factor.Key;
+					string factor_class= factor.Value;
+				}
+			}
 		}
 		
 		public double calculate_crisp()

@@ -37,9 +37,9 @@ namespace FuzzyCalcNET.Set
 				step = (end-begin) / (names.Length - 1);
 				p = begin;
 			}
-			Console.WriteLine("Triangle classifier ctor");
-			Console.WriteLine("edge={0}, cross={1}, begin={2}, end={3}, n={4}", edge, cross, begin, end, names.Length);
-			Console.WriteLine("wide={0}, step={1}, p={2}", wide, step, p);
+//			Console.WriteLine("Triangle classifier ctor");
+//			Console.WriteLine("edge={0}, cross={1}, begin={2}, end={3}, n={4}", edge, cross, begin, end, names.Length);
+//			Console.WriteLine("wide={0}, step={1}, p={2}", wide, step, p);
 			foreach (string term in names) {
 				this[term] = new Triangle(p-wide, p, p+wide);
 				Console.WriteLine("term={0}, {1}, {2}, {3}", term, p-wide, p, p+wide);

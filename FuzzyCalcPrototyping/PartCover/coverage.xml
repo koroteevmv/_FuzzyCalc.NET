@@ -1,10 +1,10 @@
-<PartCoverReport version="4.0" date="2012-09-01T11:28:16.5900002+04:00">
+<PartCoverReport version="4.0" date="2012-09-07T23:41:15.0156250+04:00">
  <Assembly id="1" name="nunit-console" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\nunit-console-x86.exe" domain="DefaultDomain" domainIdx="1" />
  <Assembly id="2" name="nunit.core" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit.core.dll" domain="nunit-console-x86.exe" domainIdx="1" />
  <Assembly id="3" name="nunit.util" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit.util.dll" domain="nunit-console-x86.exe" domainIdx="1" />
  <Assembly id="4" name="nunit-console-runner" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit-console-runner.dll" domain="nunit-console-x86.exe" domainIdx="1" />
  <Assembly id="5" name="nunit.core.interfaces" module="C:\Program Files\SharpDevelop\4.1\bin\Tools\NUnit\lib\nunit.core.interfaces.dll" domain="nunit-console-x86.exe" domainIdx="1" />
- <Assembly id="8" name="FuzzyCalcPrototyping" module="C:\Users\sejros\AppData\Local\Temp\nunit20\ShadowCopyCache\10828_634820956959069611\Tests_-1394856965\assembly\dl3\8645f699\00289c3b_0685cd01\FuzzyCalcPrototyping.EXE" domain="test-domain-FuzzyCalcPrototyping.exe" domainIdx="1" />
+ <Assembly id="8" name="FuzzyCalcPrototyping" module="C:\Documents and Settings\Admin\Local Settings\Temp\nunit20\ShadowCopyCache\344_634826580626250000\Tests_2447750\assembly\dl3\ef212629\00975cdd_dc87cd01\FuzzyCalcPrototyping.EXE" domain="test-domain-FuzzyCalcPrototyping.exe" domainIdx="1" />
  <Type asmref="1" name="NUnit.ConsoleRunner.ExtendedConsoleUi" flags="0">
   <Method name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0">
    <pt visit="1" pos="0" len="6" />
@@ -1297,8 +1297,8 @@
    <pt visit="7" pos="18" len="2" />
   </Method>
   <Method name="set_PumpState" sig="void  (NUnit.Core.EventPumpState)" bodysize="18" flags="0" iflags="0">
-   <pt visit="4" pos="0" len="15" />
-   <pt visit="4" pos="15" len="2" />
+   <pt visit="3" pos="0" len="15" />
+   <pt visit="3" pos="15" len="2" />
   </Method>
   <Method name="get_Name" sig="string  ()" bodysize="24" flags="0" iflags="0">
    <pt visit="1" pos="0" len="10" />
@@ -1327,10 +1327,10 @@
   <Method name="Stop" sig="void  ()" bodysize="64" flags="0" iflags="0">
    <pt visit="1" pos="0" len="7" />
    <pt visit="1" pos="7" len="10" />
-   <pt visit="1" pos="17" len="8" />
-   <pt visit="1" pos="25" len="12" />
-   <pt visit="1" pos="37" len="12" />
-   <pt visit="1" pos="49" len="2" />
+   <pt visit="0" pos="17" len="8" />
+   <pt visit="0" pos="25" len="12" />
+   <pt visit="0" pos="37" len="12" />
+   <pt visit="0" pos="49" len="2" />
    <pt visit="1" pos="51" len="1" />
   </Method>
   <Method name=".cctor" sig="void  ()" bodysize="22" flags="0" iflags="0">
@@ -1457,32 +1457,23 @@
   <Method name="Dequeue" sig="NUnit.Core.Event  (bool)" bodysize="136" flags="0" iflags="0">
    <pt visit="5" pos="0" len="14" />
    <pt visit="5" pos="14" len="4" />
-   <pt visit="4" pos="18" len="4" />
-   <pt visit="3" pos="22" len="8" />
+   <pt visit="5" pos="18" len="4" />
+   <pt visit="4" pos="22" len="8" />
    <pt visit="1" pos="30" len="1" />
-   <pt visit="4" pos="31" len="4" />
-   <pt visit="3" pos="35" len="12" />
-   <pt visit="3" pos="47" len="4" />
+   <pt visit="5" pos="31" len="4" />
+   <pt visit="4" pos="35" len="12" />
+   <pt visit="4" pos="47" len="4" />
    <pt visit="1" pos="51" len="5" />
-   <pt visit="3" pos="56" len="1" />
-   <pt visit="8" pos="57" len="11" />
-   <pt visit="8" pos="68" len="7" />
+   <pt visit="4" pos="56" len="1" />
+   <pt visit="9" pos="57" len="11" />
+   <pt visit="9" pos="68" len="7" />
    <pt visit="4" pos="75" len="11" />
    <pt visit="4" pos="86" len="8" />
    <pt visit="5" pos="94" len="6" />
    <pt visit="5" pos="100" len="2" />
    <pt visit="5" pos="102" len="3" />
   </Method>
-  <Method name="Stop" sig="void  ()" bodysize="88" flags="0" iflags="0">
-   <pt visit="1" pos="0" len="14" />
-   <pt visit="1" pos="14" len="12" />
-   <pt visit="1" pos="26" len="19" />
-   <pt visit="1" pos="45" len="2" />
-   <pt visit="1" pos="47" len="3" />
-   <pt visit="1" pos="50" len="6" />
-   <pt visit="1" pos="56" len="2" />
-   <pt visit="1" pos="58" len="2" />
-  </Method>
+  <Method name="Stop" sig="void  ()" bodysize="88" flags="0" iflags="0" />
  </Type>
  <Type asmref="2" name="NUnit.Core.ExpectedExceptionProcessor" flags="0">
   <Method name=".ctor" sig="void  (NUnit.Core.TestMethod)" bodysize="18" flags="0" iflags="0" />
@@ -6015,20 +6006,20 @@
  </Type>
  <Type asmref="5" name="NUnit.Core.RuntimeFramework" flags="0">
   <Method name=".ctor" sig="void  (NUnit.Core.RuntimeType, System.Version)" bodysize="128" flags="0" iflags="0">
-   <pt visit="6" pos="0" len="6" />
-   <pt visit="6" pos="6" len="34" />
-   <pt visit="6" pos="40" len="10" />
+   <pt visit="5" pos="0" len="6" />
+   <pt visit="5" pos="6" len="34" />
+   <pt visit="5" pos="40" len="10" />
    <pt visit="0" pos="50" len="8" />
    <pt visit="0" pos="58" len="7" />
-   <pt visit="6" pos="65" len="4" />
+   <pt visit="5" pos="65" len="4" />
    <pt visit="0" pos="69" len="6" />
    <pt visit="0" pos="75" len="8" />
-   <pt visit="6" pos="83" len="1" />
-   <pt visit="6" pos="84" len="4" />
+   <pt visit="5" pos="83" len="1" />
+   <pt visit="5" pos="84" len="4" />
    <pt visit="0" pos="88" len="8" />
    <pt visit="0" pos="96" len="5" />
-   <pt visit="6" pos="101" len="8" />
-   <pt visit="6" pos="109" len="7" />
+   <pt visit="5" pos="101" len="8" />
+   <pt visit="5" pos="109" len="7" />
   </Method>
   <Method name="get_DisplayName" sig="string  ()" bodysize="24" flags="0" iflags="0">
    <pt visit="1" pos="0" len="10" />
@@ -6075,57 +6066,57 @@
   <Method name="get_IsAvailable" sig="bool  ()" bodysize="71" flags="0" iflags="0">
    <pt visit="1" pos="0" len="7" />
    <pt visit="1" pos="7" len="5" />
-   <pt visit="3" pos="12" len="11" />
-   <pt visit="3" pos="23" len="9" />
+   <pt visit="2" pos="12" len="11" />
+   <pt visit="2" pos="23" len="9" />
    <pt visit="1" pos="32" len="4" />
-   <pt visit="2" pos="36" len="4" />
-   <pt visit="3" pos="40" len="12" />
+   <pt visit="1" pos="36" len="4" />
+   <pt visit="2" pos="40" len="12" />
    <pt visit="0" pos="52" len="4" />
    <pt visit="1" pos="56" len="3" />
   </Method>
   <Method name="get_Runtime" sig="NUnit.Core.RuntimeType  ()" bodysize="24" flags="0" iflags="0">
-   <pt visit="17" pos="0" len="10" />
-   <pt visit="17" pos="10" len="2" />
+   <pt visit="13" pos="0" len="10" />
+   <pt visit="13" pos="10" len="2" />
   </Method>
   <Method name="get_FrameworkVersion" sig="System.Version  ()" bodysize="24" flags="0" iflags="0">
    <pt visit="1" pos="0" len="10" />
    <pt visit="1" pos="10" len="2" />
   </Method>
   <Method name="get_ClrVersion" sig="System.Version  ()" bodysize="24" flags="0" iflags="0">
-   <pt visit="22" pos="0" len="10" />
-   <pt visit="22" pos="10" len="2" />
+   <pt visit="20" pos="0" len="10" />
+   <pt visit="20" pos="10" len="2" />
   </Method>
   <Method name="get_AllowAnyVersion" sig="bool  ()" bodysize="34" flags="0" iflags="0">
-   <pt visit="8" pos="0" len="17" />
-   <pt visit="8" pos="17" len="3" />
-   <pt visit="8" pos="20" len="2" />
+   <pt visit="6" pos="0" len="17" />
+   <pt visit="6" pos="17" len="3" />
+   <pt visit="6" pos="20" len="2" />
   </Method>
   <Method name="Parse" sig="NUnit.Core.RuntimeFramework  (string)" bodysize="226" flags="0" iflags="0" />
   <Method name="GetBestAvailableFramework" sig="NUnit.Core.RuntimeFramework  (NUnit.Core.RuntimeFramework)" bodysize="128" flags="0" iflags="0" />
   <Method name="ToString" sig="string  ()" bodysize="131" flags="0" iflags="0" />
   <Method name="Matches" sig="bool  (NUnit.Core.RuntimeFramework)" bodysize="254" flags="0" iflags="0">
-   <pt visit="4" pos="0" len="7" />
-   <pt visit="4" pos="7" len="2" />
-   <pt visit="4" pos="9" len="6" />
-   <pt visit="4" pos="15" len="2" />
-   <pt visit="4" pos="17" len="6" />
-   <pt visit="4" pos="23" len="6" />
-   <pt visit="4" pos="29" len="4" />
+   <pt visit="3" pos="0" len="7" />
+   <pt visit="3" pos="7" len="2" />
+   <pt visit="3" pos="9" len="6" />
+   <pt visit="3" pos="15" len="2" />
+   <pt visit="3" pos="17" len="6" />
+   <pt visit="3" pos="23" len="6" />
+   <pt visit="3" pos="29" len="4" />
    <pt visit="0" pos="33" len="1" />
-   <pt visit="4" pos="34" len="4" />
+   <pt visit="3" pos="34" len="4" />
    <pt visit="0" pos="38" len="7" />
-   <pt visit="4" pos="45" len="6" />
-   <pt visit="4" pos="51" len="2" />
-   <pt visit="4" pos="53" len="6" />
-   <pt visit="4" pos="59" len="5" />
+   <pt visit="3" pos="45" len="6" />
+   <pt visit="3" pos="51" len="2" />
+   <pt visit="3" pos="53" len="6" />
+   <pt visit="3" pos="59" len="5" />
    <pt visit="0" pos="64" len="1" />
-   <pt visit="4" pos="65" len="4" />
+   <pt visit="3" pos="65" len="4" />
    <pt visit="0" pos="69" len="7" />
-   <pt visit="4" pos="76" len="6" />
-   <pt visit="4" pos="82" len="5" />
-   <pt visit="4" pos="87" len="6" />
-   <pt visit="4" pos="93" len="5" />
-   <pt visit="4" pos="98" len="5" />
+   <pt visit="3" pos="76" len="6" />
+   <pt visit="3" pos="82" len="5" />
+   <pt visit="3" pos="87" len="6" />
+   <pt visit="3" pos="93" len="5" />
+   <pt visit="3" pos="98" len="5" />
    <pt visit="2" pos="103" len="6" />
    <pt visit="2" pos="109" len="5" />
    <pt visit="2" pos="114" len="6" />
@@ -6155,25 +6146,25 @@
    <pt visit="0" pos="229" len="4" />
    <pt visit="2" pos="233" len="1" />
    <pt visit="2" pos="234" len="2" />
-   <pt visit="2" pos="236" len="1" />
-   <pt visit="4" pos="237" len="3" />
-   <pt visit="4" pos="240" len="2" />
+   <pt visit="1" pos="236" len="1" />
+   <pt visit="3" pos="237" len="3" />
+   <pt visit="3" pos="240" len="2" />
   </Method>
   <Method name="IsRuntimeTypeName" sig="bool  (string)" bodysize="91" flags="0" iflags="0" />
   <Method name="GetDefaultDisplayName" sig="string  (NUnit.Core.RuntimeType, System.Version)" bodysize="107" flags="0" iflags="0">
-   <pt visit="6" pos="0" len="12" />
-   <pt visit="6" pos="12" len="7" />
+   <pt visit="5" pos="0" len="12" />
+   <pt visit="5" pos="12" len="7" />
    <pt visit="0" pos="19" len="11" />
    <pt visit="0" pos="30" len="3" />
-   <pt visit="6" pos="33" len="11" />
+   <pt visit="5" pos="33" len="11" />
    <pt visit="0" pos="44" len="11" />
    <pt visit="0" pos="55" len="5" />
    <pt visit="0" pos="60" len="3" />
-   <pt visit="6" pos="63" len="11" />
-   <pt visit="6" pos="74" len="11" />
-   <pt visit="6" pos="85" len="5" />
-   <pt visit="6" pos="90" len="3" />
-   <pt visit="6" pos="93" len="2" />
+   <pt visit="5" pos="63" len="11" />
+   <pt visit="5" pos="74" len="11" />
+   <pt visit="5" pos="85" len="5" />
+   <pt visit="5" pos="90" len="3" />
+   <pt visit="5" pos="93" len="2" />
   </Method>
   <Method name="AppendMonoFrameworks" sig="void  (NUnit.Core.RuntimeFramework.FrameworkCollection)" bodysize="50" flags="0" iflags="0" />
   <Method name="AppendAllMonoFrameworks" sig="void  (NUnit.Core.RuntimeFramework.FrameworkCollection)" bodysize="154" flags="0" iflags="0" />
@@ -6247,21 +6238,21 @@
    <pt visit="1" pos="42" len="14" />
    <pt visit="1" pos="56" len="8" />
    <pt visit="1" pos="64" len="7" />
-   <pt visit="6" pos="71" len="18" />
-   <pt visit="6" pos="89" len="9" />
-   <pt visit="3" pos="98" len="8" />
-   <pt visit="3" pos="106" len="8" />
-   <pt visit="3" pos="114" len="7" />
-   <pt visit="3" pos="121" len="15" />
-   <pt visit="3" pos="136" len="11" />
-   <pt visit="3" pos="147" len="5" />
-   <pt visit="3" pos="152" len="5" />
-   <pt visit="3" pos="157" len="5" />
-   <pt visit="3" pos="162" len="7" />
-   <pt visit="6" pos="169" len="14" />
-   <pt visit="3" pos="183" len="1" />
-   <pt visit="6" pos="184" len="7" />
-   <pt visit="7" pos="191" len="17" />
+   <pt visit="5" pos="71" len="18" />
+   <pt visit="5" pos="89" len="9" />
+   <pt visit="2" pos="98" len="8" />
+   <pt visit="2" pos="106" len="8" />
+   <pt visit="2" pos="114" len="7" />
+   <pt visit="2" pos="121" len="15" />
+   <pt visit="2" pos="136" len="11" />
+   <pt visit="2" pos="147" len="5" />
+   <pt visit="2" pos="152" len="5" />
+   <pt visit="2" pos="157" len="5" />
+   <pt visit="2" pos="162" len="7" />
+   <pt visit="4" pos="169" len="14" />
+   <pt visit="2" pos="183" len="1" />
+   <pt visit="5" pos="184" len="7" />
+   <pt visit="6" pos="191" len="17" />
    <pt visit="1" pos="208" len="1" />
    <pt visit="1" pos="209" len="1" />
    <pt visit="1" pos="210" len="1" />

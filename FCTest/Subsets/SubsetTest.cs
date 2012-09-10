@@ -56,6 +56,16 @@ namespace FCTest.Subsets
 			Assert.AreEqual(0.0, A.membership(1.0), "Incorrect membership value");
 			Assert.Throws<KeyNotFoundException>(delegate{A.membership(0.2);});
 		}
+		[Test]
+		public void Null_Addition{}
+		{
+			// TODO: implement incremental addition test
+//			Subset S = new Subset();
+//			Subset B = new Triangle(0.0, 3.0, 5.0);
+//			Subset+=B;
+//			Assert.AreEqual(B, S, "Invalid incremental addition");
+			// TODO: implement subsets equality check
+		}
 	}
 	
 	[TestFixture]
