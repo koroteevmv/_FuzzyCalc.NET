@@ -1,0 +1,5 @@
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\j\bin\Debug\j.exe.config
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\j\bin\Debug\j.exe
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\j\bin\Debug\j.dll
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\j\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sejros\Documents\GitHub\FuzzyCalc.NET\j\obj\Debug\j.exe

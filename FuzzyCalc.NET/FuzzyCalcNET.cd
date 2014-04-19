@@ -1,145 +1,194 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="FuzzyCalcNET.Subset.Subset" Collapsed="False">
-    <Position X="0.5" Y="4.1" Width="2.305964" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-      <Compartment Name="Fields" Collapsed="False" />
-    </Compartments>
-  </Class>
   <Enum Name="FuzzyCalcNET.Domains.Accuracy" Collapsed="False">
-    <Position X="0.5" Y="15.8" Width="1.710182" />
+    <Position X="0.5" Y="18.1" Width="1.7" />
     <Compartments />
   </Enum>
   <Interface Name="FuzzyCalcNET.Domains.IDomain" Collapsed="False">
-    <Position X="0.5" Y="17.1" Width="1.226994" />
+    <Position X="0.5" Y="19.3" Width="1.1" />
     <Compartments>
-      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Properties" Collapsed="True" />
     </Compartments>
   </Interface>
   <Class Name="FuzzyCalcNET.Domains.IntegerRange" Collapsed="False">
-    <Position X="0.5" Y="2.8" Width="1.951256" />
+    <Position X="0.5" Y="10.1" Width="1.2" />
     <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="True" />
     </Compartments>
   </Class>
-  <Class Name="FuzzyCalcNET.Set.FuzzySet" Collapsed="False">
-    <Position X="0.5" Y="10.9" Width="1.522858" />
+  <Class Name="FuzzyCalcNET.Controller.Mamdani" Collapsed="False">
+    <Position X="0.5" Y="20.5" Width="1" />
     <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Properties" Collapsed="True" />
+      <Compartment Name="Methods" Collapsed="True" />
     </Compartments>
   </Class>
-  <Class Name="FuzzyCalcNET.Domains.RationalRange" Collapsed="False">
-    <Position X="0.5" Y="0.5" Width="2.07984" />
+  <Class Name="FuzzyCalcNET.Controller.Rule" Collapsed="False">
+    <Position X="0.5" Y="21.9" Width="1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Set.std_2_Classifier_triangle" Collapsed="False">
+    <Position X="0.5" Y="13.9" Width="1.8" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Set.std_2_Classifier_gaussian" Collapsed="False">
+    <Position X="0.5" Y="13.9" Width="1.9" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Set.std_3_Classifier_triangle" Collapsed="False">
+    <Position X="3.9" Y="13.9" Width="1.8" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Set.std_3_Classifier_gaussian" Collapsed="False">
+    <Position X="14.8" Y="13.9" Width="1.9" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Set.std_5_Classifier_triangle" Collapsed="False">
+    <Position X="7.3" Y="13.9" Width="1.8" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Set.std_5_Classifier_gaussian" Collapsed="False">
+    <Position X="18.5" Y="13.9" Width="1.9" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Subset.Trapezoidal" Collapsed="False">
+    <Position X="0.5" Y="16.6" Width="1.2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Subset.Gaussian" Collapsed="False">
+    <Position X="2.6" Y="16.6" Width="1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Set.TriangleClassifier" Collapsed="False">
+    <Position X="0.5" Y="12.7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Set.GaussianClassifier" Collapsed="False">
+    <Position X="11.2" Y="12.7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Subset.Triangle" Collapsed="False">
+    <Position X="4.5" Y="16.6" Width="1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Subset.Interval" Collapsed="False">
+    <Position X="6.5" Y="16.6" Width="1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Subset.Subset" Collapsed="False">
+    <Position X="0.5" Y="15.2" Width="1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+      <Compartment Name="Fields" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Interface Name="FuzzyCalcNET.TNorm.T_Norm" Collapsed="False">
+    <Position X="0.5" Y="23.4" Width="1.1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Interface>
+  <Class Name="FuzzyCalcNET.TNorm.margin" Collapsed="False">
+    <Position X="0.5" Y="24.6" Width="1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.TNorm.drastic" Collapsed="False">
+    <Position X="0.5" Y="25.8" Width="1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.TNorm.naive" Collapsed="False">
+    <Position X="0.5" Y="27.1" Width="1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.TNorm.min_max" Collapsed="False">
+    <Position X="0.5" Y="28.3" Width="1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.TNorm.sum_prod" Collapsed="False">
+    <Position X="0.5" Y="29.5" Width="1.1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="True" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Controller.WeightedAverage" Collapsed="False">
+    <Position X="0.5" Y="2.7" Width="2.4" />
     <Compartments>
       <Compartment Name="Properties" Collapsed="False" />
       <Compartment Name="Methods" Collapsed="False" />
     </Compartments>
   </Class>
-  <Class Name="FuzzyCalcNET.Subset.Gaussian" Collapsed="False">
-    <Position X="0.5" Y="8.5" Width="1.543107" />
+  <Class Name="FuzzyCalcNET.Controller.Average" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="1.8" />
     <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-      <Compartment Name="Fields" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.Subset.Triangle" Collapsed="False">
-    <Position X="2.3" Y="8.5" Width="1.543107" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-      <Compartment Name="Fields" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.Set.std_2_Classifier_triangle" Collapsed="False">
-    <Position X="11.8" Y="14.5" Width="3.063073" />
-    <Compartments>
+      <Compartment Name="Properties" Collapsed="True" />
       <Compartment Name="Methods" Collapsed="False" />
     </Compartments>
   </Class>
-  <Class Name="FuzzyCalcNET.Set.std_2_Classifier_gaussian" Collapsed="False">
-    <Position X="0.5" Y="14.5" Width="3.225709" />
+  <Interface Name="FuzzyCalcNET.Controller.IAggregation" Collapsed="False">
+    <Position X="0.5" Y="4.6" Width="1.7" />
     <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.Set.std_3_Classifier_triangle" Collapsed="False">
-    <Position X="15.2" Y="14.5" Width="3.063073" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.Set.std_3_Classifier_gaussian" Collapsed="False">
-    <Position X="4" Y="14.5" Width="3.225709" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.Set.std_5_Classifier_triangle" Collapsed="False">
-    <Position X="18.6" Y="14.5" Width="3.063073" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.Set.std_5_Classifier_gaussian" Collapsed="False">
-    <Position X="7.7" Y="14.5" Width="3.225709" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.Set.GaussianClassifier" Collapsed="False">
-    <Position X="0.5" Y="13.1" Width="2.472575" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.Subset.Trapezoidal" Collapsed="False">
-    <Position X="4.3" Y="8.5" Width="1.764879" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-      <Compartment Name="Fields" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.TNorm.naive" Collapsed="False">
-    <Position X="0.5" Y="18.6" Width="1.296896" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.Set.TriangleClassifier" Collapsed="False">
-    <Position X="11.7" Y="13.1" Width="2.335182" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.TNorm.drastic" Collapsed="False">
-    <Position X="0.5" Y="20.3" Width="1.296896" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.TNorm.margin" Collapsed="False">
-    <Position X="0.5" Y="22" Width="1.296896" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.TNorm.min_max" Collapsed="False">
-    <Position X="0.5" Y="23.7" Width="1.296896" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Class Name="FuzzyCalcNET.TNorm.sum_prod" Collapsed="False">
-    <Position X="0.5" Y="25.3" Width="1.296896" />
-    <Compartments>
-      <Compartment Name="Methods" Collapsed="False" />
-    </Compartments>
-  </Class>
-  <Interface Name="FuzzyCalcNET.TNorm.T_Norm" Collapsed="False">
-    <Position X="0.5" Y="27" Width="1.296896" />
-    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
       <Compartment Name="Methods" Collapsed="False" />
     </Compartments>
   </Interface>
+  <Interface Name="FuzzyCalcNET.Controller.IRuled" Collapsed="False">
+    <Position X="0.5" Y="6.7" Width="1.2" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Interface>
+  <Class Name="FuzzyCalcNET.Domains.RationalRange" Collapsed="False">
+    <Position X="0.5" Y="8.5" Width="1.3" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="FuzzyCalcNET.Set.FuzzySet" Collapsed="False">
+    <Position X="0.5" Y="11.3" Width="1" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
 </ClassDiagram>

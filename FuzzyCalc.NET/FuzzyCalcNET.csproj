@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FuzzyCalcNET.cd" />
+    <Content Include="FuzzyCalcNET.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>

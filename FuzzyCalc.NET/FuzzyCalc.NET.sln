@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-# SharpDevelop 4.1.0.8000
+# SharpDevelop 4.4
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyCalcNET", "FuzzyCalcNET.csproj", "{D6CEAD5E-C64D-4FCE-9D17-864A653E4646}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC_Unit_Tests", "..\FCTest\FC_Unit_Tests.csproj", "{42558D42-C3CB-4CDE-BB98-2BF48C87CC58}"
@@ -9,6 +9,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debug", "..\Debug\Debug.csproj", "{E6D6561A-726B-4824-885E-B0158E8E858C}"
 EndProject
 Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "FuzzyCalcPrototyping", "..\FuzzyCalcPrototyping\FuzzyCalcPrototyping.pyproj", "{0A4E52E8-FF04-4BB4-8136-21C52E8FDB47}"
+EndProject
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "j", "..\j\j.pyproj", "{56DC14C0-3948-4DAC-8054-409D43274143}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,14 @@ Global
 		{0A4E52E8-FF04-4BB4-8136-21C52E8FDB47}.Release|Any CPU.ActiveCfg = Release|x86
 		{0A4E52E8-FF04-4BB4-8136-21C52E8FDB47}.Release|x86.Build.0 = Release|x86
 		{0A4E52E8-FF04-4BB4-8136-21C52E8FDB47}.Release|x86.ActiveCfg = Release|x86
+		{56DC14C0-3948-4DAC-8054-409D43274143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DC14C0-3948-4DAC-8054-409D43274143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DC14C0-3948-4DAC-8054-409D43274143}.Debug|x86.Build.0 = Debug|Any CPU
+		{56DC14C0-3948-4DAC-8054-409D43274143}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{56DC14C0-3948-4DAC-8054-409D43274143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DC14C0-3948-4DAC-8054-409D43274143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DC14C0-3948-4DAC-8054-409D43274143}.Release|x86.Build.0 = Release|Any CPU
+		{56DC14C0-3948-4DAC-8054-409D43274143}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,6 +19,7 @@ namespace FuzzyCalcNET.Subset
 	public class Subset
 	{
 		public IDomain Domain;
+		public object Property { get; set; }
 		public Dictionary<double, double> Values;
 		protected T_Norm Norm;
 		
